@@ -1,3 +1,5 @@
+$('input').val('');
+
 $('button').on('click', createLi);
 $('input').on('keydown', function(evt) {
     if (evt.keyCode === 13) createLi();
